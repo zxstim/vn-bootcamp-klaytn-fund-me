@@ -1,3 +1,7 @@
+// SPDX-License-Identifier: MIT
+// 1. Pragma
+pragma solidity ^0.8.19;
+
 import { IAggregator } from "@bisonai/orakl-contracts/src/v0.1/interfaces/IAggregator.sol";
 
 library PriceConverter {
